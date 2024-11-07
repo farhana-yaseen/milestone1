@@ -1,15 +1,5 @@
-"use client"
-
-import { useState } from "react"
-
 
 export default function EducationSection(){
-
-    const [state, setState] = useState(false);
-
-    const buttonState = () =>{
-        setState(!state)
-    };
 
     return(
         <section id= "educaionSection" className="md:p-10 sm:p-5 p-2 font-serif">

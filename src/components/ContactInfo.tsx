@@ -2,6 +2,7 @@
 import Link from "next/link"
 import Footer from "./Footer"
 import Form from "./Form"
+import Image from "next/image"
 
 
 export default function ContactInfo() {
@@ -22,7 +23,7 @@ export default function ContactInfo() {
                 </div>
 
                 <div className="lg:mt-36 xl:mt-24 2xl:mt-10 ">
-                    <img src="/contactUs.jpg" alt="contactus" className="border-gray-500 border-2 rounded-md object-contain " />
+                    <Image src={"/contactUs.jpg"} alt="contactus" width={500} height={500}className="border-gray-500 border-2 rounded-md object-contain" ></Image>
                 </div>
             </div>
 

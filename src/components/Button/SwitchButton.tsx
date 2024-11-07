@@ -12,7 +12,7 @@ export default function SwitchButton() {
     const [experience, setExperience] = useState(true);
 
 
-    const resumeSection = (section: any) => {
+    const resumeSection = (section:number) => {
         switch (section) {
             case 1:
                 setSkill(!skill)
